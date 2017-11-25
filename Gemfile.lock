@@ -63,6 +63,7 @@ GEM
     minitest (5.10.3)
     multi_json (1.12.2)
     mustermann (1.0.1)
+    ngrok-tunnel (2.1.0)
     public_suffix (3.0.1)
     rack (2.0.3)
     rack-protection (2.0.0)
@@ -96,6 +97,7 @@ DEPENDENCIES
   alexa_rubykit
   data_mapper
   logger
+  ngrok-tunnel
   ralyxa
   sinatra
   sinatra-contrib

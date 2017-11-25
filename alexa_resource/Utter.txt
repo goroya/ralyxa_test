@@ -1,0 +1,22 @@
+CallIntent 注文
+CallIntent 注文お願いします
+OrderIntent {NetaOne}
+OrderIntent {NetaOne}  {NetaTwo}
+OrderIntent {NetaOne}  {NetaTwo}  {NetaThree}
+OrderIntent {NetaOne}  {NetaTwo}  {NetaThree}  {NetaFour}
+OrderIntent {NetaOne}  {NetaTwo}  {NetaThree}  {NetaFour}  {NetaFive}
+OrderIntent {NetaOne}  {NetaTwo}  {NetaThree}  {NetaFour}  {NetaFive}  {NetaSix}
+OrderIntent {NetaOne}  {NetaTwo}  {NetaThree}  {NetaFour}  {NetaFive}  {NetaSix} {NetaSeven}
+OrderIntent {NetaOne}  {NetaTwo}  {NetaThree}  {NetaFour}  {NetaFive}  {NetaSix} {NetaSeven} {NetaEight}
+OrderIntent {NetaOne}  {NetaTwo}  {NetaThree}  {NetaFour}  {NetaFive}  {NetaSix} {NetaSeven} {NetaEight} {NetaNine}
+OrderIntent {NetaOne}  {NetaTwo}  {NetaThree}  {NetaFour}  {NetaFive}  {NetaSix} {NetaSeven} {NetaEight} {NetaNine} {NetaTen}
+CheckIntent お勘定して
+CheckIntent お勘定お願いします
+CheckIntent お会計して
+CheckIntent お会計お願いします
+CheckIntent チェックして
+CheckIntent チェックお願いします
+CheckIntent おあいそして
+CheckIntent おあいそお願いします
+
+

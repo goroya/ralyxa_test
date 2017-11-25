@@ -1,25 +1,55 @@
 {
   "intents": [
     {
-      "intent": "GoodMorningIntent",
+      "intent": "CallIntent"
+    },
+    {
+      "intent": "OrderIntent",
       "slots": [
         {
-          "name": "Name",
-          "type": "AMAZON.FirstName"
+          "name": "NetaOne",
+          "type": "SusiNeta"
+        },
+        {
+          "name": "NetaTwo",
+          "type": "SusiNeta"
+        },
+        {
+          "name": "NetaThree",
+          "type": "SusiNeta"
+        },
+        {
+          "name": "NetaFour",
+          "type": "SusiNeta"
+        },
+        {
+          "name": "NetaFive",
+          "type": "SusiNeta"
+        },
+        {
+          "name": "NetaSix",
+          "type": "SusiNeta"
+        },
+        {
+          "name": "NetaSeven",
+          "type": "SusiNeta"
+        },
+        {
+          "name": "NetaEight",
+          "type": "SusiNeta"
+        },
+        {
+          "name": "NetaNine",
+          "type": "SusiNeta"
+        },
+        {
+          "name": "NetaTen",
+          "type": "SusiNeta"
         }
       ]
     },
     {
-      "intent": "EncourageIntent",
-      "slots": [
-        {
-          "name": "Name",
-          "type": "AMAZON.FirstName"
-        }
-      ]
-    },
-    {
-      "intent": "CustomIntent"
+      "intent": "CheckIntent"
     },
     {
       "intent": "AMAZON.CancelIntent"

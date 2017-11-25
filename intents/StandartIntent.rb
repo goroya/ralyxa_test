@@ -5,12 +5,16 @@ log = Logger.new('log/log.txt')
 
 intent 'LaunchRequest' do
   log.debug('LaunchRequest')
-  ask('<speak>君の名前は<emphasis level="strong">なんだ</emphasis></speak>', ssml: true, start_over: true)
+  ask(
+      '<speak>いらっしゃいませ。寿司屋へようこそ。</speak>',
+      ssml: true, session_attributes: {
+      size: 0
+  })
 end
 
 intent 'SessionEndedRequest' do
   log.debug('SessionEndedRequest')
-  respond('SessionEndedRequest')
+  ask('<speak><emphasis level="strong">ありがとうございました。またのお越しをお待ちしております。</emphasis></speak>', ssml: true)
 end
 
 
