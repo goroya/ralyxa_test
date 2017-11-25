@@ -1,0 +1,7 @@
+GoodMorningIntent おはよう {Name}
+GoodMorningIntent おはようございます {Name}
+EncourageIntent 応援して
+EncourageIntent 励まして
+EncourageIntent 私を励まして
+EncourageIntent 僕を励まして
+EncourageIntent {Name} を励まして
