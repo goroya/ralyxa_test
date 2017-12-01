@@ -4,10 +4,15 @@ require 'pp'
 log = Logger.new('log/log.txt')
 
 intent 'CallIntent' do
-  ask("<speak><emphasis level='strong'>承ります。ご注文のネタをおっしゃってください</emphasis></speak>", ssml: true)
+  pp 'CallIntent'
+  ask(
+      '<speak><emphasis level=\'strong\'>承ります。ご注文のネタをおっしゃってください</emphasis></speak>',
+      ssml: true, session_attributes: { ordered: [] }
+  )
 end
 
 intent 'OrderIntent' do
+  pp 'OrderIntent'
   ordered = request.session_attribute('orders')
 
   order_array = []
@@ -38,7 +43,7 @@ intent 'OrderIntent' do
 end
 
 intent 'CheckIntent' do
-
+  pp 'CheckIntent'
   ordered = request.session_attribute('orders')
   pp(ordered)
   msg = 'お会計を致します。'
